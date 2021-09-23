@@ -1,0 +1,24 @@
+{
+  "name": "one-time-share-backend-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.991.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "./node_modules/.bin/env-cmd -f ./config/dev.env nodemon ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
